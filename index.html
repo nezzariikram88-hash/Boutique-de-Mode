@@ -1,0 +1,255 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Atelier N°8, boutique de mode élégante et moderne.">
+  <title>ATELIER N°8 | Boutique de Mode</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="announcement">
+    Livraison offerte à partir de 5 000 DA
+  </div>
+
+  <header class="header">
+    <a href="#" class="logo">
+      ATELIER N°8
+      <span>BOUTIQUE DE MODE</span>
+    </a>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Ouvrir le menu">☰</button>
+
+    <nav class="nav" id="nav">
+      <a href="#accueil">Accueil</a>
+      <a href="#collections">Collections</a>
+      <a href="#nouveautes">Nouveautés</a>
+      <a href="#apropos">À propos</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <a href="#nouveautes" class="bag">♡ <span id="favoriteCount">0</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-content">
+        <p class="eyebrow">NOUVELLE COLLECTION</p>
+        <h1>Élégance<br><em>au quotidien</em></h1>
+        <p class="hero-description">
+          Découvrez une collection inspirée par la simplicité,
+          le confort et le raffinement.
+        </p>
+        <a href="#collections" class="btn">Découvrir la collection ↗</a>
+        <p class="hero-note">DES PIÈCES CHOISIES AVEC SOIN</p>
+      </div>
+
+      <div class="hero-image">
+        <img
+          src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=1200&q=85"
+          alt="Look élégant de la nouvelle collection"
+        >
+        <span class="image-caption">Style. Confiance. Vous.</span>
+      </div>
+    </section>
+
+    <section class="categories section" id="collections">
+      <div class="section-heading">
+        <p class="eyebrow">EXPLOREZ NOTRE UNIVERS</p>
+        <h2>Nos collections</h2>
+      </div>
+
+      <div class="category-grid">
+        <a href="#nouveautes" class="category-card">
+          <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=700&q=80" alt="Collection femme">
+          <div class="category-overlay">
+            <span>01</span>
+            <h3>Femme</h3>
+            <p>Découvrir la collection ↗</p>
+          </div>
+        </a>
+
+        <a href="#nouveautes" class="category-card">
+          <img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?auto=format&fit=crop&w=700&q=80" alt="Collection homme">
+          <div class="category-overlay">
+            <span>02</span>
+            <h3>Homme</h3>
+            <p>Découvrir la collection ↗</p>
+          </div>
+        </a>
+
+        <a href="#nouveautes" class="category-card">
+          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80" alt="Sacs et accessoires">
+          <div class="category-overlay">
+            <span>03</span>
+            <h3>Accessoires</h3>
+            <p>Découvrir la collection ↗</p>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="products section" id="nouveautes">
+      <div class="products-heading">
+        <div>
+          <p class="eyebrow">SÉLECTION DU MOMENT</p>
+          <h2>Les nouveautés<span class="title-line"></span></h2>
+        </div>
+        <p class="product-intro">Des essentiels intemporels pour votre style.</p>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image">
+            <span class="tag">Nouveau</span>
+            <button class="favorite" aria-label="Ajouter aux favoris">♡</button>
+            <img src="https://images.unsplash.com/photo-1591047139829-d91aecb6caea?auto=format&fit=crop&w=700&q=80" alt="Veste beige élégante">
+          </div>
+          <div class="product-info">
+            <p class="product-category">FEMME · VÊTEMENTS</p>
+            <h3>Veste élégante</h3>
+            <p class="price">4 800 DA</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <span class="tag">Tendance</span>
+            <button class="favorite" aria-label="Ajouter aux favoris">♡</button>
+            <img src="https://images.unsplash.com/photo-1576566588028-4147f3842f27?auto=format&fit=crop&w=700&q=80" alt="Pull en maille">
+          </div>
+          <div class="product-info">
+            <p class="product-category">FEMME · MAILLE</p>
+            <h3>Pull en maille</h3>
+            <p class="price">2 900 DA</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <button class="favorite" aria-label="Ajouter aux favoris">♡</button>
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=700&q=80" alt="Sac à main">
+          </div>
+          <div class="product-info">
+            <p class="product-category">ACCESSOIRES</p>
+            <h3>Sac à main classique</h3>
+            <p class="price">3 800 DA</p>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image">
+            <span class="tag">Best-seller</span>
+            <button class="favorite" aria-label="Ajouter aux favoris">♡</button>
+            <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?auto=format&fit=crop&w=700&q=80" alt="Sneakers blanches">
+          </div>
+          <div class="product-info">
+            <p class="product-category">CHAUSSURES</p>
+            <h3>Sneakers minimalistes</h3>
+            <p class="price">4 200 DA</p>
+          </div>
+        </article>
+      </div>
+
+      <a href="#contact" class="btn btn-outline">Découvrir nos collections ↗</a>
+    </section>
+
+    <section class="editorial">
+      <div class="editorial-image">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1000&q=85" alt="Inspiration mode">
+      </div>
+      <div class="editorial-content">
+        <p class="eyebrow">L'ART DE BIEN S'HABILLER</p>
+        <h2>Le style, c'est<br><em>rester soi-même.</em></h2>
+        <p>
+          Chez Atelier N°8, nous croyons que chaque pièce raconte
+          une histoire. Des coupes soignées, des tons naturels et
+          une élégance qui traverse les saisons.
+        </p>
+        <a href="#contact" class="text-link">En savoir plus ↗</a>
+      </div>
+    </section>
+
+    <section class="services-strip" id="apropos">
+      <div>
+        <span class="service-icon">♧</span>
+        <h3>Livraison en Algérie</h3>
+        <p>Livraison selon votre wilaya</p>
+      </div>
+      <div>
+        <span class="service-icon">◇</span>
+        <h3>Paiement à la livraison</h3>
+        <p>Des modalités simples et claires</p>
+      </div>
+      <div>
+        <span class="service-icon">♡</span>
+        <h3>À votre écoute</h3>
+        <p>Contactez-nous pour vos questions</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="contact">
+    <div class="footer-main">
+      <div>
+        <a href="#accueil" class="logo footer-logo">
+          ATELIER N°8
+          <span>BOUTIQUE DE MODE</span>
+        </a>
+        <p class="footer-description">
+          Une mode intemporelle, pensée pour vous.
+        </p>
+      </div>
+
+      <div>
+        <h3>Navigation</h3>
+        <a href="#accueil">Accueil</a>
+        <a href="#collections">Collections</a>
+        <a href="#nouveautes">Nouveautés</a>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <a href="mailto:contact@example.com">Nous écrire</a>
+        <p>Algérie</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>© 2026 Atelier N°8 — Projet de démonstration</p>
+      <a href="#accueil">Retour en haut ↑</a>
+    </div>
+  </footer>
+
+  <script>
+    const menuToggle = document.getElementById("menuToggle");
+    const nav = document.getElementById("nav");
+
+    menuToggle.addEventListener("click", () => {
+      nav.classList.toggle("active");
+    });
+
+    nav.querySelectorAll("a").forEach(link => {
+      link.addEventListener("click", () => nav.classList.remove("active"));
+    });
+
+    const favorites = document.querySelectorAll(".favorite");
+    const favoriteCount = document.getElementById("favoriteCount");
+    let count = 0;
+
+    favorites.forEach(button => {
+      button.addEventListener("click", () => {
+        const active = button.classList.toggle("selected");
+        button.textContent = active ? "♥" : "♡";
+        count += active ? 1 : -1;
+        favoriteCount.textContent = count;
+      });
+    });
+  </script>
+
+</body>
+</html>
